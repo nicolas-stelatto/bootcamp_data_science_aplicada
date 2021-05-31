@@ -1,0 +1,28 @@
+# Forma de aquisição dos dados para projeto - arquivo "A184611189_28_143_208"
+
+Link: https://datasus.saude.gov.br/informacoes-de-saude-tabnet/
+
+- O banco de dados que vamos usar é Assistência à Saúde >> Produção Hospitalar (SIH/SUS)
+    - Depois disso vamos estudar Dados Consolidade AIH (RD), por local de internação, a partir de 2008 e selecionamos do Brasil por região e unidade da federação
+        - Selecionamos em Linha: Unidade da Federação
+        - Selecionamos em Coluna: Ano/mês atendimento
+        - Selecionamos em Conteúdo: Valor Total
+            - Em períodos disponíveis, nós selecionamos todos os períodos disponíveis desde 2008 até a data de hoje
+    - Clicar em "Mostrar"
+    - Depois que gerar e carregar os conteúdos clicamos em Copia como .CSV
+
+- Ano/mês processamento (esse é o mês em que o dinheiro ou atendimento é processado → seja porque foi aprovado naquela data) ≠ do ano/mês de atendimento (esse é o mês em que o paciente é realmente atendido) → Analogia com faturamento de uma venda com cartão e recebimento do dinheiro
+
+
+# Forma de aquisição dos dados para projeto - arquivo "Valor total por Ano_mês atendimento segundo Unidade da Federação"
+
+- O banco de dados que vamos usar é Assistência à Saúde >> Produção Hospitalar (SIH/SUS)
+    - Depois disso vamos estudar Dados Consolidade AIH (RD), por local de internação, a partir de 2008 e selecionamos do Brasil por região e unidade da federação
+        - Selecionamos em Linha: Unidade da Federação
+        - Selecionamos em Coluna: Ano/mês atendimento
+        - Selecionamos em Conteúdo: Valor Total
+            - Em períodos disponíveis, nós selecionamos todos os períodos disponíveis desde 2008 até a data de hoje
+    - Clicar em "Mostrar"
+    - Depois que gerar e carregar os conteúdos clicamos em Copia como .CSV
+
+- Ano/mês processamento (esse é o mês em que o dinheiro ou atendimento é processado → seja porque foi aprovado naquela data) ≠ do ano/mês de atendimento (esse é o mês em que o paciente é realmente atendido) → Analogia com faturamento de uma venda com cartão e recebimento do dinheiro
